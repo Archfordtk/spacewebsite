@@ -1,0 +1,205 @@
+@font-face{
+    src: url("C://Users//Ray//Desktop//spaceexplorationsite//fonts//Datalegreya-Gradient.otf");
+    font-family: sace;
+}
+
+
+body{
+    padding: 0px;
+    margin: 50px 100px;
+    color: white;
+    text-align: center;
+}
+/*
+C://Users//Ray//Desktop//spaceexplorationsite//images//galaxy.webp
+*/
+#hero{
+    background-image: url("C://Users//Ray//Desktop//spaceexplorationsite//images//spiralBlueGalaxy980.webp");
+    background-size: cover;
+
+}
+
+
+h1{
+    font-family: sace;
+    font-size: 52px;
+    color: white;
+    font-weight: bolder;
+    padding-top: 26px;
+    margin: 0px;
+    margin-left: 10px;
+    text-align: left;
+}
+
+h2{
+    font-family: 'Orbitron', sans-serif;
+    font-size: 32px;
+    color: white;
+    font-weight: bold;
+    align-items:center;
+    margin:21.44px 0px;
+    text-shadow: -2px 3px 2px rgb(57, 57, 108);
+}
+
+.button button{
+    padding: 6px 12px;
+    font-family: 'Times New Roman', Times, serif;
+    border: none;
+    background-color: white;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 800;
+    color: rgb(88, 88, 138);
+    text-shadow: 0px 0px 4px rgb(88,88, 138) ;
+}
+
+.cta{
+    color: orange;
+    border: 3px solid white;
+    padding: 3px 3px;
+}
+
+#logo{
+    width: 300px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+h3{
+    font-family: 'Orbitron', sans-serif;
+    color: rgb(84, 84, 231);
+    font-size: 27px;
+    background-color: white;
+    padding-top: 20px;
+    text-decoration: underline solid 3px rgb(84, 84, 231);
+    
+}
+
+.nav-bar ul a {
+    color: rgb(82, 82, 194);
+    font-size: 20px;
+    padding-left: 20px;
+    font-size: 25px;
+    margin-bottom: 300px;
+    text-decoration: none;
+}
+
+.nav-bar ul{
+display: inline-flex;
+list-style: none;
+text-align: right;
+margin-left:900px;
+margin-top: -45px;
+}
+
+.nav-bar li{
+    border-radius: 10px;
+    background-color: white;
+    padding-right: 15px;
+    padding-left: -5px;
+    margin-right: 20px;
+}
+
+.nav-bar ul :hover{
+    color: white;
+    border-radius: 10px;
+    background-color: rgb(80, 80, 153);
+    transition: 0.3s ease;
+}
+.nav-bar{
+    display: flexbox;
+}
+.intro{
+    color: black;
+    font: sace;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 90px ;
+    margin-bottom: 30px;
+    margin-left: 350px;
+    margin-right:350px;
+}
+
+.intro{
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 80px;
+    padding-bottom: 100px;
+    display: flexbox;
+}
+
+.intro h5{
+    padding-top: 20px;
+    padding-right: 25px;
+    font-size: 42px;
+    font-family: 'Orbitron', sans-serif;
+    color: rgb(56, 56, 199);
+    text-decoration: underline solid 3px rgb(56, 56, 199);
+}
+
+.p4{
+    font-size: 22px;
+    font-family: sace;
+    font-weight: bolder;
+}
+
+#contact_form{
+    background-color: white;
+    image-rendering: crisp-edges;
+    border-radius: 10px;
+    margin-left: 400px;
+    margin-right:400px;
+    margin-top: 70px;
+    margin-bottom: 100px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 70px;
+    padding-bottom: 100px;
+}
+
+#contact_form{
+    font-size: 25px;
+    font-family:  'Orbitron', sans-serif;
+    color: orange;
+}
+
+.row{
+    padding-right:15px;
+    padding-top: 30px;
+    margin-top: 20px;
+    
+}
+.input{
+    height: 40px;
+    width: 300px;
+    border-radius: 15px;
+    text-shadow: none;
+    border-color: rgb(142, 142, 239);
+
+}
+
+.input{
+    font-size: 20px;
+    padding-left: 10px;         /*typography*/
+    padding-right: 10px;
+}
+
+#message{
+    width: 421px;
+    height: 221px;
+}
+
+#submit_btn{
+    margin-top: 50px;
+    padding:10px 16px;
+    border-radius: 8px;
+    background-color: rgb(56, 56, 199);
+    color: snow;
+    font-size: 20px;
+}
+    
+
+
+
+
+
+
